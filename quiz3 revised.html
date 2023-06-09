@@ -4,19 +4,21 @@
 <meta charset="utf-8">
 <title>Fluid Grid Layout</title>
 <style>
+   
    #wrapper {
       width:960px;
       margin:0 auto;
    }
-   header { 
+    header { 
       width:960px;
       height:120px;
       background-color:#066cfa;
       border-bottom:1px solid black;
    }
+
    .header-text{
       font-size:40px;
-      color:white;
+      color:black;
       text-align:center;
       line-height:120px;
    }
@@ -24,14 +26,14 @@
       float:left;
       width:600px;
       height:400px;   
-       padding:15px; 
+      padding:15px; 
       background-color:#ffd800;
    }
    .right-side {  
       float:right;
       width:300px;
       height:400px;
-       padding:15px; 
+      padding:15px; 
       background-color:#00ff90;
    }
    footer { 
@@ -39,6 +41,7 @@
       height:120px;
       background-color:#c3590a;
    }
+ 
 </style>
 </head>
 
@@ -46,15 +49,15 @@
    <div id="wrapper">
 
         <header>
-            <h1 class="header-text">헤더</h1>
+            <h1 class="header-text">고정 그리드 레이아웃</h1>
         </header>
 
         <section class="content">
-            <h4>오른쪽</h4>
+            <h4>왼쪽</h4>
         </section>
 
         <aside class="right-side">
-            <h4>왼쪽</h4>
+            <h4>오른쪽</h4>
         </aside>
 
         <footer>
